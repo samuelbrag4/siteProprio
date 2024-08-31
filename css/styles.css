@@ -41,6 +41,10 @@ a {
     padding: 10px;
 }
 
+a:hover {
+    color: #4b4b4b;
+}
+
 h2 {
     color: #FFF;
     text-align: right;
@@ -55,4 +59,11 @@ h2:hover {
 
 h2 span {
     color: #606060;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 75px;
 }
